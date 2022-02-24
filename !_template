@@ -1,0 +1,12 @@
+/*
+with a    as (select    
+--  ner join (select       "xx
+
+
+/*
+--SELECT plan_table_output FROM TABLE(DBMS_XPLAN.DISPLAY());
+--explain plan for
+--  ner join (select       "xx
+
+
+###
