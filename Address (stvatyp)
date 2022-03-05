@@ -1,0 +1,65 @@
+
+--  select * from stvatyp order by stvatyp_code ;
+--  Returns in('AA','AB','AD','AH','AS','BI','BU','EM','FA','HS','IN','MA','PA','XF','XU','XX','ZZ')
+
+--  select * from stvatyp where stvatyp_tele_code is not null order by stvatyp_code ;
+--  Returns in('AA','AB','AD','AH','AS','BI','BU','EM','FA','IN','MA','PA','ZZ')
+
+--  select * from stvatyp where stvatyp_system_req_ind='Y' order by stvatyp_code ;
+--  Returns in('BI','BU','MA','PA','XX')
+
+
+--  select * from stvatyp order by stvatyp_code ;
+/*
+STVATYP_CODE	STVATYP_DESC
+AA	          Admissions Application
+AB	          Alumni Business
+AD	          Alumni
+AH	          Alumni Home
+AS	          Alumni Seasonal
+BI	          Billing
+BU	          Business
+EM	          Emergency Contact
+FA	          Financial Aid
+HS	          HS Transcript
+IN	          International
+MA	          Mailing
+PA	          Parents
+XF	          SEVIS Foreign Address
+XU	          SEVIS US Address
+XX	          Reserved for TGRFEED Use Only
+ZZ	          Unknown or no response
+
+
+--  select * from stvatyp where stvatyp_tele_code is not null order by stvatyp_code ;
+--  Returns in('AA','AB','AD','AH','AS','BI','BU','EM','FA','IN','MA','PA','ZZ')
+/*
+STVATYP_CODE	STVATYP_DESC
+AA	          Admissions Application
+AB	          Alumni Business
+AD	          Alumni
+AH	          Alumni Home
+AS	          Alumni Seasonal
+BI	          Billing
+BU	          Business
+EM	          Emergency Contact
+FA	          Financial Aid
+IN	          International
+MA	          Mailing
+PA	          Parents
+ZZ	          Unknown or no response
+
+
+--  select * from stvatyp where stvatyp_system_req_ind='Y' order by stvatyp_code ;
+--  Returns in('BI','BU','MA','PA','XX')
+/*
+STVATYP_CODE	STVATYP_DESC
+BI	          Billing
+BU	          Business
+MA	          Mailing
+PA	          Parents
+XX	          Reserved for TGRFEED Use Only
+
+
+
+###
