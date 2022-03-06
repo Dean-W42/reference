@@ -1,0 +1,47 @@
+--  select * from stvactc order by stvactc_code ;
+--  Athletic Codes
+--  Marching Storm in('MS201010','MSTORM')
+--  ROTC in('ARMY','NAVY')
+
+
+/*
+STVACTC_CODE	STVACTC_DESC
+ARMY	        ARMY ROTC
+ATHLSUPP	    Athletic Support
+CHRDOLL	      PV Cheerleader/Panther Doll
+CLSSDNCE	    Classic Dance Ensemble
+DSP	          Special Populations
+EQM	          Equipment Managers
+FOSTER	      Panthers Fostering Success
+HONRSPGM	    Honors Program
+MBA	          Men's Baseball Team
+MBB	          Men's Basketball Team
+MCC	          Men's Cross Country Team
+MFB	          Men's Football Team
+MGO	          Men's Golf Team
+MNGSACPT	    Meningitis acceptance flag
+MS201010	    Marching Storm - 201010
+MSTORM	      Marching Storm
+MTE	          Men's Tennis Team
+MTI	          Men's Indoor Track Team
+MTO	          Men's Outdoor Track Team
+MTR	          Men's Track Team
+NAVY	        NAVY ROTC
+PMSTORM	      Pending Marching Storm
+PVEMAIL	      PV Email Account Creation
+SMD	          Sports Medicine
+UMA	          Undergraduate Medical Academy
+WBB	          Women's Basketball Team
+WBW	          Women's Bowling Team
+WCC	          Women's Cross Country Team
+WGO	          Women's Golf Team
+WSB	          Women's Softball Team
+WSO	          Women's Soccer Team
+WTE	          Women's Tennis Team
+WTI	          Women's Indoor Track Team
+WTO	          Women's Outdoor Track Team
+WTR	          Women's Track Team
+WVB	          Women's Volleyball Team
+
+
+###
